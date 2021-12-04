@@ -42,8 +42,8 @@
    </header>
    <main class="container mt-5">
        <div class="main-about row">
-            <h4>Me</h4>
-            <p>Lecturer - CSE.TLU </p>
+            <h4 class="  fs-2 fw-light">Nguyen Thuy Ninh </h4>
+            <p class="  fs-5 text-muted fw-lighter" > Student - CSE.TLU </p>
             <div class="col-md-6">
                     <img src="assets/images/img1.jpeg" alt="" class="img-fluid rounded">
             </div>
@@ -133,6 +133,7 @@
       </div>
    </section>
    <section class="contact container mt-3">
+     <p class="fs-3">Contact ( Your Name )</p>
     <form class="row g-3 needs-validation" novalidate>
         <div class="col-md-4">
           <label for="validationCustom01" class="form-label">First name</label>
@@ -168,15 +169,17 @@
         <div class="col-md-3">
           <label for="validationCustom04" class="form-label">State</label>
           <select class="form-select" id="validationCustom04" required>
-            <option selected disabled value="">Choose...</option>
-            <option>...</option>
+            <option selected disabled value="">Choose</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
           </select>
           <div class="invalid-feedback">
             Please select a valid state.
           </div>
         </div>
         <div class="col-md-3">
-          <label for="validationCustom05" class="form-label">Zip</label>
+          <label for="validationCustom05" class="form-label">ZIP</label>
           <input type="text" class="form-control" id="validationCustom05" required>
           <div class="invalid-feedback">
             Please provide a valid zip.
@@ -186,7 +189,7 @@
           <div class="form-check">
             <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
             <label class="form-check-label" for="invalidCheck">
-              Agree to terms and conditions
+              Agreed
             </label>
             <div class="invalid-feedback">
               You must agree before submitting.
@@ -194,7 +197,7 @@
           </div>
         </div>
         <div class="col-12">
-          <button class="btn btn-primary mb-5" type="submit">Submit form</button>
+          <button class="btn btn-primary mb-5" type="submit">Submit Form</button>
         </div>
       </form>
   </section>
